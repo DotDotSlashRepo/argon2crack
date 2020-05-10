@@ -23,9 +23,24 @@ pip install passlib
 Clone this repository on your local computer.
 Run `python argon2crack.py -h`.
 
-## Input format
+## Help
 
-Script expects hashes to be in username:password_hash format. Refer hashes.txt as an example.
+Script supports wordlists only.
+
+```shell
+usage: argon2crack.py [-h] [--threads [THREADS]] [--passwordlist [PASSWORDLIST]] --hashlist HASHLIST
+
+Script to crack argon2 hashes.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --threads [THREADS]   number of threads for execution, by default up-to 30 threads are used
+  --passwordlist [PASSWORDLIST]
+                        wordlist file for password cracking, uses 10k-most-common.txt by default
+
+required named arguments:
+  --hashlist HASHLIST   file containing argon2 hashes, in the format username:password_hash
+```
 
 ## Credits
 

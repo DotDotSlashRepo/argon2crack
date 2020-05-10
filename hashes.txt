@@ -1,0 +1,3 @@
+admin:$argon2id$v=19$m=16,t=2,p=1$d2UzNGVyd3c$vNTcd3WEw3a3fggdNgt2uw
+user:$argon2id$v=19$m=16,t=2,p=1$d2UzNGVyd3dl$DoQS4NORal1BbUZZFN8ohQ
+hacker:$argon2d$v=19$m=16,t=2,p=1$M3dlZXIzNDNyZXJlcg$gEuKv07ZXWVvvcwP9V3+0A
